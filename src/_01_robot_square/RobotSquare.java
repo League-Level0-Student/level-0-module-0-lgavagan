@@ -12,8 +12,10 @@ public class RobotSquare {
     public static void main(String[] args) throws Exception {
  
     	// 1. Make a new Robot
-
-
+      Robot jimmithan = new Robot();
+      jimmithan.penDown();
+      jimmithan.setSpeed(90);
+      
         // 3. Put the robot's pen down
 
 
@@ -21,7 +23,10 @@ public class RobotSquare {
 
 
         // 5. Do everything below here 4 times
-
+       for(int sides = 0; sides<4;sides++) {
+    	   jimmithan.move(200);
+    	   jimmithan.turn(90);
+       }
 
         //         2. Move your robot 200 pixels
 
