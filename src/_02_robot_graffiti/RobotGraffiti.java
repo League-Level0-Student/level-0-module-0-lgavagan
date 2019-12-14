@@ -8,7 +8,7 @@ public class RobotGraffiti {
 		// TODO Auto-generated method stub
 		Robot liam = new Robot();
 		liam.penDown();
-		liam.setSpeed(5000);
+		liam.setSpeed(1);
 		liam.turn(180);
 		liam.move(255);
 		liam.turn(-90);

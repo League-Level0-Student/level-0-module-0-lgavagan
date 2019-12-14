@@ -14,7 +14,7 @@ public class RobotSquare {
     	// 1. Make a new Robot
       Robot jimmithan = new Robot();
       jimmithan.penDown();
-      jimmithan.setSpeed(90);
+      jimmithan.setSpeed(1);
       
         // 3. Put the robot's pen down
 
